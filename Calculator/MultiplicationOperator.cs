@@ -8,5 +8,15 @@ namespace Calculator
 {
     class MultiplicationOperator
     {
+        public decimal result;
+        public decimal Multiply(decimal value1, decimal value2)
+        {
+            result = value1 * value2;
+            return result;
+        }
+        public void PrintResult()
+        {
+            Console.WriteLine("\nResult: " + result);
+        } 
     }
 }

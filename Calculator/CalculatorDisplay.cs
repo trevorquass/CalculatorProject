@@ -22,8 +22,8 @@ namespace Calculator
             if (mathOperator == "+")
             {
                 AdditionOperator add = new AdditionOperator();
-                //add.Addition(firstNumber, secondNumber);
-                //add.PrintResult();
+                add.Add(firstNumber, secondNumber);
+                add.PrintResult();
             }
             else if (mathOperator == "-")
             {
@@ -34,14 +34,14 @@ namespace Calculator
             else if (mathOperator == "*")
             {
                 MultiplicationOperator multiply = new MultiplicationOperator();
-                //multiply.Multiplication(firstNumber, secondNumber);
-                //multiply.PrintResult();
+                multiply.Multiply(firstNumber, secondNumber);
+                multiply.PrintResult();
             }
             else if (mathOperator == "/")
             {
                 DivisionOperator divide = new DivisionOperator();
                 divide.Division(firstNumber, secondNumber);
-                //divide.PrintResult();
+                divide.PrintResult();
             }
             else
             {
