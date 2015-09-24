@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class AdditionOperator
+    public class AdditionOperator
     {
         public decimal result;
         public decimal Add(decimal value1, decimal value2)

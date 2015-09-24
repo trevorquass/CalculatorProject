@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class SubtractionOperator
+    public class SubtractionOperator
     {
-        //public decimal value1;
-        //public decimal value2;
         public decimal result;
         public decimal Subtract(decimal value1, decimal value2)
         {

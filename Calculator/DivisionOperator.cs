@@ -14,15 +14,12 @@ namespace Calculator
             try
             {
                 total = amount / amount2;
+                Console.WriteLine("\nResult: " + total);
             }
             catch (DivideByZeroException e)
             {
                 Console.WriteLine("\nException caught, cannot divide by zero.", e);
             }
         }
-        public void PrintResult()
-        {
-            Console.WriteLine("\nResult: " + total);
-        } 
     }
 }
