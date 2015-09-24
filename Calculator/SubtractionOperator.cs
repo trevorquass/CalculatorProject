@@ -8,5 +8,11 @@ namespace Calculator
 {
     class SubtractionOperator
     {
+        public decimal result;
+        public decimal Subtract()
+        {
+            CalculatorDisplay calculator = new CalculatorDisplay();
+            result = CalculatorDisplay.firstNumber + CalculatorDisplay.secondNumber
+        }
     }
 }

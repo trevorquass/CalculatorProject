@@ -10,6 +10,9 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            CalculatorDisplay calculator = new CalculatorDisplay();
+            calculator.RunCalculator();
+            Console.Read();
         }
     }
 }
