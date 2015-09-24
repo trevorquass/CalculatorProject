@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class DivisionOperator
+    public class DivisionOperator
     {
-        public void Divison(decimal amount, decimal amount2)
+        public void Division(decimal amount, decimal amount2)
         {
             decimal total = 0;
 
@@ -22,12 +22,8 @@ namespace Calculator
             }
             finally
             {
-                Console.WriteLine("Total = ", total);
+                Console.WriteLine("Result: " + total);
             }
-
-
-
-            Console.WriteLine(total);
         }        
     }
 }
