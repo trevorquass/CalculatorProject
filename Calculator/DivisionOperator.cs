@@ -8,7 +8,7 @@ namespace Calculator
 {
     class DivisionOperator
     {
-        public void Divison(decimal amount, decimal amount2)
+        public void Division(decimal amount, decimal amount2)
         {
             decimal total = 0;
 

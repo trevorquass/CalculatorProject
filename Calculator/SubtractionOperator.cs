@@ -8,11 +8,17 @@ namespace Calculator
 {
     class SubtractionOperator
     {
+        //public decimal value1;
+        //public decimal value2;
         public decimal result;
-        public decimal Subtract()
+        public decimal Subtract(decimal value1, decimal value2)
         {
-            CalculatorDisplay calculator = new CalculatorDisplay();
-            result = CalculatorDisplay.firstNumber + CalculatorDisplay.secondNumber
+            result = value1 - value2;
+            return result;
         }
+        public void PrintResult()
+        {
+            Console.WriteLine("\nResult: " + result);
+        }            
     }
 }
