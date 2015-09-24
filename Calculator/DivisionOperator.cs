@@ -8,5 +8,26 @@ namespace Calculator
 {
     class DivisionOperator
     {
+        public void Divison(decimal amount, decimal amount2)
+        {
+            decimal total = 0;
+
+            try
+            {
+                total = amount / amount2;
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Exception caught, cannot divide by zero.", e);
+            }
+            finally
+            {
+                Console.WriteLine("Total = ", total);
+            }
+
+
+
+            Console.WriteLine(total);
+        }        
     }
 }
