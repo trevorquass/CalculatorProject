@@ -41,7 +41,6 @@ namespace Calculator
                 }
                 AdditionOperator add = new AdditionOperator();
                 add.Add(firstNumber, secondNumber);
-                add.PrintResult();
             }
             else if (mathOperator == "-")
             {
@@ -58,7 +57,6 @@ namespace Calculator
                 }
                 SubtractionOperator subtract = new SubtractionOperator();
                 subtract.Subtract(firstNumber, secondNumber);
-                subtract.PrintResult();
             }
             else if (mathOperator == "*")
             {
@@ -75,7 +73,6 @@ namespace Calculator
                 }
                 MultiplicationOperator multiply = new MultiplicationOperator();
                 multiply.Multiply(firstNumber, secondNumber);
-                multiply.PrintResult();
             }
             else if (mathOperator == "/")
             {
